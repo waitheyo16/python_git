@@ -1,7 +1,7 @@
-varsocket=io();
-varmessages=document.getElementById('messages');
-varform=document.getElementById('form');
-varinput=document.getElementById('input');
+const socket=io();
+const messages=document.getElementById('messages');
+const form=document.getElementById('form');
+const input=document.getElementById('input');
 form.addEventListener('submit',function(e){
 e.preventDefault();
 if(input.value){
